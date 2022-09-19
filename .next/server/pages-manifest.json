@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/api/liveblocks": "pages/api/liveblocks.js",
+  "/api/themes/submitted/latest": "pages/api/themes/submitted/latest.js",
+  "/api/themes": "pages/api/themes.js",
+  "/api/site": "pages/api/site.js",
+  "/api/spotify/player": "pages/api/spotify/player.js"
+}
