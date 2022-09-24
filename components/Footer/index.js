@@ -177,27 +177,27 @@ const DescriptionSection = ({debug,debugGrid}) => {
   const social = [
     {
       name: 'CodePen',
-      href: 'https://codepen.io/ryanparag',
+      href: 'https://codepen.io/shovon',
       outbound: true,
       icon: <Codepen size={'16'}/>
     },{
       name: 'GitHub',
-      href: 'https://github.com/ryan-parag',
+      href: 'https://github.com/sh0von',
       outbound: true,
       icon: <GitHub size={'16'}/>
     },{
       name: 'Dribbble',
-      href: 'https://dribbble.com/ryanparag',
+      href: 'https://dribbble.com/shovon',
       outbound: true,
       icon: <Dribbble size={'16'}/>
     },{
       name: 'Linkedin',
-      href: 'https://linkedin.com/in/ryan-parag',
+      href: 'https://linkedin.com/in/shovon',
       outbound: true,
       icon: <Linkedin size={'16'}/>
     },{
       name: 'Email',
-      href: 'mailto:parag.ryan@gmail.com?subject=Hey Ryan!',
+      href: 'mailto:minar@duck.com?subject=Hey Shovon!',
       outbound: true,
       icon: <Send size={'16'}/>
     }

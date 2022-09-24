@@ -337,13 +337,7 @@ export default function Projects(){
       image: '/static/projects/icon-theme-creator.png',
       link:'/create-theme',
       outbound: false
-    }, {
-      name: 'Worksheets',
-      description: 'Questions and resources to utilize in your UX process',
-      image: '/static/projects/icon-worksheets.png',
-      link:'/worksheets',
-      outbound: false
-    }, {
+    },  {
       name: 'Figma',
       description: 'Check out my files and plugins on Figma Community',
       image: '/static/projects/icon-figma.png',
