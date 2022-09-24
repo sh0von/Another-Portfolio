@@ -71,10 +71,6 @@ const Index = ({ posts, work, title, description, ...props }) => {
             <hr/>
           </Wrapper>
           <Wrapper>
-            <Typography variant={'h3'}>
-              <Link href="/listening/music"><a>Recent Listens 🎧</a></Link>
-            </Typography>
-            <SpotifyCurrentlyPlaying playing />
             <hr/>
             <FAQ/>
             <hr/>
