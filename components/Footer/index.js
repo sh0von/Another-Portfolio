@@ -139,22 +139,7 @@ const Repo = () => {
       {
         data ? (
           <div>
-            <small>
-              <a
-                className="link"
-                href={data.repo.link}
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  marginRight: designTokens.space[2]
-                }}
-              >
-                View Source
-              </a>
-            </small>
-            <small style={{ color: 'var(--grey700)'}}>
-              Last Updated {format(data.repo.updated)}
-            </small>
+
           </div>
         )
         :
