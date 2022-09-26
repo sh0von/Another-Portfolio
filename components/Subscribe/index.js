@@ -38,9 +38,6 @@ export default function Subscribe() {
       <h3 style={{ marginTop: '0' }}>Subscribe for Updates!</h3>
       <p>Would you like a quick, monthly update about new posts/notes, side projects I'm building, design portfolios </p>
       <p>
-        <small>
-          You can also <strong><Link href="/rss"><a className="link">subscribe via RSS</a></Link></strong>.
-        </small>
       </p>
       <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
     </SubscribeContainer>
