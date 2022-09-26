@@ -164,7 +164,7 @@ const InlineButton = styled.a`
 
 export const EmailButton = () => {
   return(
-    <ButtonAnchorTag href="mailto:hello@ryanparag.com?subject=Hey Ryan!">
+    <ButtonAnchorTag href="mailto:minar@duck.com?subject=Hey Shovon!">
       <Send size="20" className="buttonIcon" style={{ color: 'var(--primary)' }} />
       Send me an email!
     </ButtonAnchorTag>
@@ -173,7 +173,7 @@ export const EmailButton = () => {
 
 export const EmailButtonInline = () => {
   return(
-    <InlineButton href="mailto:hello@ryanparag.com?subject=Hey Ryan!">
+    <InlineButton href="mailto:minar@duck.com?subject=Hey Shovon!">
       <Send size="20" className="buttonIcon" style={{ color: 'var(--primary)' }} />
       Send me an email!
     </InlineButton>
@@ -193,13 +193,13 @@ const ListInner = styled.div`
 
 const ContactBox = () => {
   return(
-    <ContactContainerLink href="mailto:hello@ryanparag.com?subject=Hey Ryan!">
+    <ContactContainerLink href="mailto:minar@duck.com?subject=Hey Shovon!">
       <ImgContainer>
         <img src="/static/thanks.png"/>
       </ImgContainer>
       <ContactContent>
         <ContactH3>
-          Hey, I'm Ryan!
+          Hey, I'm Shovon!
         </ContactH3>
         <p>
           I'm a product designer - currently based in Tampa, FL. If you're looking for help or would like to chat, reach out!
@@ -250,10 +250,10 @@ export default ContactBox
 export const ContactList = () => {
 
   const data = {
-    email: 'parag.ryan@gmail.com',
-    resume: '/static/about/RyanParag-resume.pdf',
-    github: 'https://github.com/ryan-parag',
-    linkedin: 'https://linkedin.com/in/ryan-parag'
+    email: 'minar@duck.com',
+    resume: '',
+    github: 'https://github.com/sh0von',
+    linkedin: 'https://linkedin.com/in/'
   }
 
   const [copy, setCopy] = useState(false)
@@ -290,7 +290,7 @@ export const ContactList = () => {
               <Label subtle mt={2} mb={3}>{data.email}</Label>
             </div>
             <div style={{ display: 'flex', alignItems: 'center' }}>
-              <a className="link" href={`mailto:${data.email}?subject=Hey Ryan!`}>
+              <a className="link" href={`mailto:${data.email}?subject=Hey Shovon!`}>
                 <Edit3 size={16} style={{ marginRight: designTokens.space[1] }}/>
                 Compose
               </a>
