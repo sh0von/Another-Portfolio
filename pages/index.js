@@ -71,8 +71,6 @@ const Index = ({ posts, work, title, description, ...props }) => {
             <hr/>
           </Wrapper>
           <Wrapper>
-            <hr/>
-            <hr/>
           </Wrapper>
 
           <FAQ/>
