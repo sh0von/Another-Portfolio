@@ -98,29 +98,6 @@ export const notionDark = {
   tertiaryDark: lighten(0.12, Color('rgb(249,191,82)').hex())
 }
 
-export const hyrule = {
-  name: 'Hyrule',
-  grey900: Color('rgb(255,255,255)').hex(),
-  grey800: Color('rgb(249,255,255)').hex(),
-  grey700: Color('rgb(223,248,242)').hex(),
-  grey600: Color('rgb(114,206,195)').hex(),
-  grey500: Color('rgb(103,182,176)').hex(),
-  grey400: Color('rgb(62,124,123)').hex(),
-  grey300: Color('rgb(48,104,103)').hex(),
-  grey200: Color('rgb(37,91,91)').hex(),
-  grey100: Color('rgb(30,79,76)').hex(),
-  grey0: Color('rgb(28,59,61)').hex(),
-  primary: Color('rgb(255, 142, 113)').hex(),
-  tertiary: Color('rgb(155,72,109)').hex(),
-  secondary: Color('rgb(39, 237, 252)').hex(),
-  primaryTransparent: transparentize(0.8, Color('rgb(255, 142, 113)').hex()),
-  tertiaryTransparent: transparentize(0.8, Color('rgb(155,72,109)').hex()),
-  secondaryTransparent: transparentize(0.8, Color('rgb(39, 237, 252)').hex()),
-  transparent: transparentize(0.25, Color('rgb(28,59,61)').hex()),
-  secondaryDark: lighten(0.12, Color('rgb(39, 237, 252)').hex()),
-  primaryDark: lighten(0.12, Color('rgb(255, 142, 113)').hex()),
-  tertiaryDark: lighten(0.12, Color('rgb(155,72,109)').hex()),
-}
 
 export const zora = {
   name: 'Zora\'s Domain',
@@ -144,30 +121,6 @@ export const zora = {
   secondaryDark: lighten(0.12, Color('rgb(170,200,110)').hex()),
   primaryDark: lighten(0.12, Color('rgb(216, 132, 255)').hex()),
   tertiaryDark: lighten(0.12, Color('rgb(235,80,90)').hex()),
-}
-
-export const gerudo = {
-  name: 'Gerudo Town',
-  grey900: Color('rgb(28,25,16)').hex(),
-  grey800: Color('rgb(45,41,29)').hex(),
-  grey700: Color('rgb(114,103,72)').hex(),
-  grey600: Color('rgb(159,144,100)').hex(),
-  grey500: Color('rgb(204,185,129)').hex(),
-  grey400: Color('rgb(227,206,143)').hex(),
-  grey300: Color('rgb(233,216,165)').hex(),
-  grey200: Color('rgb(238,226,188)').hex(),
-  grey100: Color('rgb(244,235,210)').hex(),
-  grey0: Color('rgb(249,245,233)').hex(),
-  primary: Color('rgb(27, 204, 242)').hex(),
-  tertiary: Color('rgb(165,202,68)').hex(),
-  secondary: Color('rgb(243,92,63)').hex(),
-  primaryTransparent: transparentize(0.8, Color('rgb(27, 204, 242)').hex()),
-  tertiaryTransparent: transparentize(0.8, Color('rgb(165,202,68)').hex()),
-  secondaryTransparent: transparentize(0.8, Color('rgb(243,92,63)').hex()),
-  transparent: transparentize(0.25, Color('rgb(249,245,233)').hex()),
-  secondaryDark: darken(0.12, Color('rgb(243,92,63)').hex()),
-  primaryDark: darken(0.12, Color('rgb(27, 204, 242)').hex()),
-  tertiaryDark: darken(0.12, Color('rgb(165,202,68)').hex()),
 }
 
 export const hebra = {
@@ -194,53 +147,6 @@ export const hebra = {
   tertiaryDark: darken(0.12, Color('rgb(124,153,150)').hex()),
 }
 
-export const eldin = {
-  name: 'Eldin Canyon',
-  grey900: Color('rgb(239,214,214)').hex(),
-  grey800: Color('rgb(187,145,144)').hex(),
-  grey700: Color('rgb(159,100,99)').hex(),
-  grey600: Color('rgb(132,56,54)').hex(),
-  grey500: Color('rgb(118,34,32)').hex(),
-  grey400: Color('rgb(106,31,29)').hex(),
-  grey300: Color('rgb(94,27,26)').hex(),
-  grey200: Color('rgb(83,24,22)').hex(),
-  grey100: Color('rgb(71,20,19)').hex(),
-  grey0: Color('rgb(47,14,13)').hex(),
-  primary: Color('rgb(254, 131, 37)').hex(),
-  tertiary: Color('rgb(255,246,67)').hex(),
-  secondary: Color('rgb(131,213,255)').hex(),
-  primaryTransparent: transparentize(0.8, Color('rgb(254, 131, 37)').hex()),
-  tertiaryTransparent:transparentize(0.8, Color('rgb(255,246,67)').hex()),
-  secondaryTransparent: transparentize(0.8, Color('rgb(131,213,255)').hex()),
-  transparent: transparentize(0.25, Color('rgb(47,14,13)').hex()),
-  secondaryDark: lighten(0.12, Color('rgb(131,213,255)').hex()),
-  primaryDark: lighten(0.12, Color('rgb(254, 131, 37)').hex()),
-  tertiaryDark: lighten(0.12, Color('rgb(255,246,67)').hex()),
-}
-
-export const sheikah = {
-  name: 'Sheikah Shrine',
-  grey900: Color('rgb(252,250,243)').hex(),
-  grey800: Color('rgb(248,244,230)').hex(),
-  grey700: Color('rgb(241,233,206)').hex(),
-  grey600: Color('rgb(235,223,181)').hex(),
-  grey500: Color('rgb(228,212,157)').hex(),
-  grey400: Color('rgb(221,201,132)').hex(),
-  grey300: Color('rgb(177,161,106)').hex(),
-  grey200: Color('rgb(133,121,79)').hex(),
-  grey100: Color('rgb(88,80,53)').hex(),
-  grey0: Color('rgb(44,40,26)').hex(),
-  primary: Color('rgb(255, 173, 50)').hex(),
-  tertiary: Color('rgb(133,196,107)').hex(),
-  secondary: Color('rgb(42,210,246)').hex(),
-  primaryTransparent: transparentize(0.8, Color('rgb(255, 173, 50)').hex()),
-  tertiaryTransparent:transparentize(0.8, Color('rgb(133,196,107)').hex()),
-  secondaryTransparent: transparentize(0.8, Color('rgb(42,210,246)').hex()),
-  transparent: transparentize(0.25, Color('rgb(44,40,26)').hex()),
-  secondaryDark: lighten(0.12, Color('rgb(42,210,246)').hex()),
-  primaryDark: lighten(0.12, Color('rgb(255, 173, 50)').hex()),
-  tertiaryDark: lighten(0.12, Color('rgb(133,196,107)').hex()),
-}
 
 export const korok = {
   name: 'Korok Forest',
@@ -264,28 +170,4 @@ export const korok = {
   secondaryDark: darken(0.12, Color('rgb(179,57,56)').hex()),
   primaryDark: darken(0.12, Color('rgb(45, 150, 65)').hex()),
   tertiaryDark: darken(0.12, Color('rgb(184,114,63)').hex()),
-}
-
-export const yiga = {
-  name: 'Yiga Clan',
-  grey900: Color('rgb(235,233,238)').hex(),
-  grey800: Color('rgb(218,211,217)').hex(),
-  grey700: Color('rgb(202,188,196)').hex(),
-  grey600: Color('rgb(185,164,175)').hex(),
-  grey500: Color('rgb(169,142,154)').hex(),
-  grey400: Color('rgb(153,119,133)').hex(),
-  grey300: Color('rgb(137,97,113)').hex(),
-  grey200: Color('rgb(121,73,92)').hex(),
-  grey100: Color('rgb(105,51,71)').hex(),
-  grey0: Color('rgb(98,24,50)').hex(),
-  primary: Color('rgb(255, 216, 69)').hex(),
-  tertiary: Color('rgb(212,65,89)').hex(),
-  secondary: Color('rgb(206,170,239)').hex(),
-  primaryTransparent: transparentize(0.8, Color('rgb(255, 216, 69)').hex()),
-  tertiaryTransparent:transparentize(0.8, Color('rgb(212,65,89)').hex()),
-  secondaryTransparent: transparentize(0.8, Color('rgb(206,170,239)').hex()),
-  transparent: transparentize(0.25, Color('rgb(98,24,50)').hex()),
-  secondaryDark: saturate(0.2, Color('rgb(206,170,239)').hex()),
-  primaryDark: saturate(0.2, Color('rgb(255, 216, 69)').hex()),
-  tertiaryDark: saturate(0.2, Color('rgb(212,65,89)').hex()),
 }

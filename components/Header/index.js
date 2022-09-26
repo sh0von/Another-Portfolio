@@ -277,7 +277,12 @@ const LatestTheme = ({handleThemeToggle, activeTheme}) => {
         display: 'inline-block'
       }}
     >
-
+      <ThemeItem
+        tabIndex={'0'}
+        theme={theme}
+        clickHandle={() => handleThemeToggle(theme)}
+        active={activeTheme === theme.name}
+      />
     </div>
   )
 }
