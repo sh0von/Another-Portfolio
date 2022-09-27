@@ -68,9 +68,6 @@ const Index = ({ posts, work, title, description, ...props }) => {
                 </a>
               </Link>
             </Typography>
-            <hr/>
-          </Wrapper>
-          <Wrapper>
           </Wrapper>
 
         </main>
