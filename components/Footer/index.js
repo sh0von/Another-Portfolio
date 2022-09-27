@@ -236,14 +236,6 @@ export default function Footer({debug, debugGrid}) {
       name: 'About',
       href: '/about',
       outbound: false
-    },{
-      name: 'RSS',
-      href: '/rss',
-      outbound: false
-    },{
-      name: 'Now',
-      href: '/now',
-      outbound: false
     }
   ]
 
