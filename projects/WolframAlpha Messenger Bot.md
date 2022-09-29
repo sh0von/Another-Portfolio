@@ -14,8 +14,8 @@ platforms: ['Web', 'Mobile', 'Tablet']
 
 ### Code
 
-```python
-// spotify.py
-
-const NOW_PLAYING_ENDPOINT = "https://api.spotify.com/v1/me/player/currently-playing";
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
 ```
