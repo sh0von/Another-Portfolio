@@ -7,7 +7,7 @@ location: 'Chittagong, BD'
 role: ['Coder']
 startDate: '2022'
 endDate: '2022'
-spaces: ['BOT','MESSENGER]
+spaces: ['BOT','MESSENGER']
 platforms: ['Web', 'Mobile', 'Tablet']
 ---
 
