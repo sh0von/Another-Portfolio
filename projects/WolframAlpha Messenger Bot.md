@@ -17,5 +17,5 @@ platforms: ['Web', 'Mobile', 'Tablet']
 ```js
 // spotify.js
 
-htmls=sss("SSS")
+help
 ```
