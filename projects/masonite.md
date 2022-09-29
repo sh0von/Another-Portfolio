@@ -1,13 +1,13 @@
 ---
 logo: '/static/projects/icon-masonite.png'
-title: 'Masonite'
-description: 'Connecting doors to the cloud and simplifying home-remodeling'
-text: 'At Masonite (a global company known for manufacturing residential and architectural doors), I help build cross-platform design systems and products for core experience, integrations, native mobile, and growth - focusing on establishing a process of lean user research and working directly with software engineers, product management, and other stakeholders.'
-location: 'Tampa, FL'
-role: ['Product Design', 'Front-end Engineering', 'Product']
-startDate: '2019'
-endDate: '2021'
-spaces: ['Enterprise', 'Growth', 'Building Materials']
+title: 'WolframAlpha Messenger Bot'
+description: 'A bot that helps facebook user to get results from WA dierectly on Messenger. Happy Solving'
+text: ''
+location: 'Chittagong, BD'
+role: ['Coder']
+startDate: '2022'
+endDate: '2022'
+spaces: ['BOT','MESSENGER]
 platforms: ['Web', 'Mobile', 'Tablet']
 ---
 
