@@ -14,8 +14,8 @@ platforms: ['Web', 'Mobile', 'Tablet']
 
 ### Code
 
-```js
-// spotify.js
+```python
+// spotify.py
 
 const NOW_PLAYING_ENDPOINT = "https://api.spotify.com/v1/me/player/currently-playing";
 ```
