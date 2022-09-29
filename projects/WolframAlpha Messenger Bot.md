@@ -14,7 +14,9 @@ platforms: ['Web', 'Mobile', 'Tablet']
 
 ### Code
 
-```
+```js
+nodejs
+
 function test() {
   console.log("notice the blank line before this function?");
 }
